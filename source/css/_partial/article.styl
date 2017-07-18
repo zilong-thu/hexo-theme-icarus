@@ -95,22 +95,21 @@
         border-bottom: 1px solid color-border
         padding: 10px 0
     blockquote
-        position: static
+        position: relative
         font-family: font-serif
-        font-size: 1.1em
-        margin: 0 -20px
+        margin: 0
         padding: 10px 20px 10px 54px
-        background: #fcfcfc
-        border-left: 4px solid #eee
+        background: #f6f6f6
+        border-left: 4px solid #ddd
         &:before
-            top: 20px
+            position: absolute
+            top: 0.8em
             left: 10px
             content: "\f10d"
-            color: #e2e2e2
+            color: #ddd
             font-size: 32px;
             font-family: FontAwesome
             text-align: center
-            position: static
         footer
             font-size: font-size
             margin: line-height 0
