@@ -23,12 +23,10 @@
                 <a href="<%- url_for(post.path) %>#more"><%= __('article.more') %></a>
             </p>
         <% } else { %>
-            <% if (!index && post.toc) { %>
-                <div id="toc" class="toc-article">
+            <div id="toc" class="toc-article">
                 <strong class="toc-title"><%= __('article.catalogue') %></strong>
-                    <%- toc(post.content) %>
-                </div>
-            <% } %>
+                <%- toc(post.content) %>
+            </div>
             <%- post.content %>
         <% } %>
         </div>

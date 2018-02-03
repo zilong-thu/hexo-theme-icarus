@@ -22,9 +22,9 @@ customize:
         location: Beijing, China
         follow: https://github.com/zilong-thu/
     highlight: monokai
-    sidebar: right # sidebar position, options: left, right or leave it empty
-    thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    sidebar: # sidebar position, options: left, right or leave it empty
+    thumbnail: false # enable posts thumbnail, options: true, false
+    favicon: /favicon.png # path to favicon
     social_links:
         github: http://github.com/zilong-thu
         twitter: /
