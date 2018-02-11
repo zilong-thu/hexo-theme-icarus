@@ -9,7 +9,8 @@
 
             // 对于已经包含在链接内的图片不适用lightGallery
             if ($(this).parent().prop("tagName") !== 'A') {
-                $(this).wrap('<a href="' + this.src + '" title="' + this.alt + '" class="gallery-item"></a>');
+                // 关掉这个特性，因为不希望用户点到图片后就跳走了
+                //$(this).wrap('<a href="' + this.src + '" title="' + this.alt + '" class="gallery-item"></a>');
             }
         });
     });
