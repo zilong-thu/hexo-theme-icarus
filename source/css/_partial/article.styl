@@ -352,16 +352,20 @@ $article-share-link
 
 /* topic section */
 .toc-article
+    position relative
+    z-index 10
     background #f0f0f0
-    margin 0 0 .2em .6em
+    margin 0 0 .2em 1em
     padding 1em
     border-radius 5px
     border: 1px solid #ccc;
+    @media mq-mini
+        float: none;
+        margin .6em 0
     .toc-title
         font-size 130%
     strong
         padding 0.3em 1
-
 ol.toc
     width 100%
     margin 1em 2em 0 0
