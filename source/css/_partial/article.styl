@@ -359,6 +359,9 @@ $article-share-link
     padding 1em
     border-radius 5px
     border: 1px solid #ccc;
+    @media mq-mini
+        float: none !important;
+        margin .6em auto;
     .toc-title
         font-size 130%
     strong
@@ -374,7 +377,7 @@ ol.toc
     float right
     @media mq-mini
         float: none;
-        margin .6em 0
+        margin .6em auto;
     .toc
         padding 0
         li
