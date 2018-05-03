@@ -74,7 +74,7 @@ plugins:
     justifiedgallery: false # options: true, false
     google_analytics: UA-45360338-1 # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
-    baidu_analytics: # enter Baidu Analytics hash key
+    baidu_analytics: 73ca1d91f31b2463befdc1c1827f2576 # enter Baidu Analytics hash key
     mathjax: false # options: true, false
 
 # Miscellaneous
